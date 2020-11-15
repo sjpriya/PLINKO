@@ -9,7 +9,7 @@ class Particle {
     }
     this.body = Bodies.circle(x,y,r,options)
     
-    this.colour = colour(random(0,255),random(0,255),random(0,255))
+    this.colour = rgb(random(0,255),random(0,255),random(0,255));
     this.x = x;
     this.y = y;
     this.r = r;
